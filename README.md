@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Welcome to springmvc
 
-You can use the [editor on GitHub](https://github.com/wx19941125/springmvc/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+mvc框架，模型-视图-控制，使业务逻辑与视图显示分离。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 搭建springmvc环境
 
-### Markdown
+导包→spring-servlet.xml→web.xml→测试(springmvc工作流程)；
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### springmvc 前台→后台
 
-```markdown
-Syntax highlighted code block
+前台访问方法；参数传递后台；访问静态资源；
 
-# Header 1
-## Header 2
-### Header 3
+### springmvc 后台→前台
 
-- Bulleted
-- List
+获取前台参数；设置前台参数；跳转前台页面；
 
-1. Numbered
-2. List
+### springmvc 前台→展示
 
-**Bold** and _Italic_ and `Code` text
+springmvc标签库；
 
-[Link](url) and ![Image](src)
-```
+### springmvc 对异常的处理
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wx19941125/springmvc/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+方法1，局部异常处理@ExceptionHandler； 方法2，全局异常处理spring-servlet.xml；
